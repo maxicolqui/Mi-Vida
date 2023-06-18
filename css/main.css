@@ -1,0 +1,106 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+    overflow-x: hidden;
+}
+
+/*=============================Menu=============================*/
+#menu li > a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+
+#menu button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*=============================Imagen=============================*/
+.carousel-inner{
+    max-height: 39rem;
+}
+
+/*======================Imgaen de iconos===========================*/
+.experiencia use{
+    font-size: 2.5rem;
+    color: rgb(8, 170, 235);
+    padding: 8px 19px;
+
+}
+
+/*========================== Redes Sociales ===================================*/
+
+.redes .face{
+    color: rgb(17, 116, 245);
+}
+
+.redes .twi{
+    color: rgb(17, 116, 245);
+}
+.redes .lin{
+    color: rgb(17, 116, 245);
+}
+.redes .wpp{
+    color: rgb(3, 168, 77);
+}
+.redes .tele{
+    color: rgb(4, 91, 206);
+}
+
+.redes{
+    text-decoration: none;
+}
+
+
+/*=============================Pantalla pequeña=============================*/
+@media  (max-width:768px){
+    #intro, #equipo{
+        width: 90% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+
+
+}
+
+/*======================== Pantalla super pequeñas ======================*/
+@media (max-width:576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    
+    
+}
+
+
+
+
+/*======================== Imagen del Footer ======================*/
+
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+    
+}
+
+.copy{
+    font-size: 20px;
+}
+
+.sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.sociales a{
+    color: #333;
+    text-decoration: none;
+}
+

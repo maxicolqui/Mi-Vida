@@ -1,0 +1,16 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+    overflow-x: hidden;
+}
+
+#menu li > a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #747474;
+}
+
+
+.carousel-inner{
+    max-height: 36rem;
+}
+
